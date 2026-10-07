@@ -2,6 +2,7 @@
 #
 # The LED is the "pen": it is on only while drawing, and the tip moves at a
 # constant speed so every part of the line gets the same amount of light.
+# Put None in the points list to start a new stroke (LED off while moving).
 # Self-contained: no other files needed.
 
 from machine import Pin, PWM

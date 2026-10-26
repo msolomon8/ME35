@@ -6,14 +6,16 @@
 from machine import Pin, PWM
 import time
 
-SERVO_PINS = [4, 5]   # servo 1 (shoulder), servo 2 (elbow)
+
+SERVO_PINS = [18, 19]   # servo 1 (shoulder), servo 2 (elbow)
 MIN_US = 500
 MAX_US = 2500
 STEP_DELAY = 0.03     # seconds per 1-degree step
 HOLD = 3              # seconds to pause at each 45-degree mark
 
 servos = [PWM(Pin(p), freq=50, duty_u16=0) for p in SERVO_PINS]
-
+for p in SERVO_PINS
+    servos.deinit()
 
 def write(pwm, deg):
     us = MIN_US + deg * (MAX_US - MIN_US) / 180

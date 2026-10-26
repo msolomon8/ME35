@@ -15,8 +15,8 @@ import time
 L1 = 87.52   # mm
 L2 = 80      # mm
 
-SERVO1_PIN = 4
-SERVO2_PIN = 5
+SERVO1_PIN = 18
+SERVO2_PIN = 19
 MIN_US = 500
 MAX_US = 2500
 

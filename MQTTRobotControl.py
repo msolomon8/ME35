@@ -13,11 +13,9 @@ import secrets
 
 
 # ---------- fill these in ----------
-#SSID= "Justin\u2019s iPhone (4)"
-#PASSWORD= "685237902"
 SSID = secrets.SSID
 PASSWORD = secrets.PWD
-BROKER = "10.5.13.148"   # for practice; on demo day put the instructor's broker IP here
+BROKER = "10.5.13.148"  
 
 # Topic prefix. Demo day MUST be "ME35". For practice on the public broker, change it
 # (and PREFIX in send_commands.py) to something unique, e.g. "ME35_practice_group3",
